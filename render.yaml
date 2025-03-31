@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: tds-p2-flask-app
+    env: docker
+    buildCommand: docker build -t tds_p2 .
+    startCommand: docker run -p 5000:5000 tds_p2
+    plan: free
+    branches:
+      - main
