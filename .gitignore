@@ -4,3 +4,5 @@ tools-in-data-science-public
 *.html
 .env
 *.mp3
+.vercel
+venv/
