@@ -1,0 +1,6 @@
+__pycache__/
+.venv
+tools-in-data-science-public
+*.html
+.env
+*.mp3
